@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+@extends('layout')
+
+@section('title')
+    About
+@endsection
+@section('content')
+
 	<h1>about</h1>
 	<p>
 		lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
@@ -11,5 +12,6 @@
 		lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
 		lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
 	</p>
-</body>
-</html>
+
+@endsection
+
